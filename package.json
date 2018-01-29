@@ -1,0 +1,128 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "node-resque@^4.0.5",
+        "scope": null,
+        "escapedName": "node-resque",
+        "name": "node-resque",
+        "rawSpec": "^4.0.5",
+        "spec": ">=4.0.5 <5.0.0",
+        "type": "range"
+      },
+      "/Users/mahindraduddempudi/work/projects/blaze"
+    ]
+  ],
+  "_from": "node-resque@>=4.0.5 <5.0.0",
+  "_id": "node-resque@4.0.9",
+  "_inCache": true,
+  "_location": "/node-resque",
+  "_nodeVersion": "8.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/node-resque-4.0.9.tgz_1507057862979_0.7124036143068224"
+  },
+  "_npmUser": {
+    "name": "evantahler",
+    "email": "evan@evantahler.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {
+    "lodash": "4.17.4"
+  },
+  "_requested": {
+    "raw": "node-resque@^4.0.5",
+    "scope": null,
+    "escapedName": "node-resque",
+    "name": "node-resque",
+    "rawSpec": "^4.0.5",
+    "spec": ">=4.0.5 <5.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-resque/-/node-resque-4.0.9.tgz",
+  "_shasum": "bbfe53ebc83c027ea221fc73f5a2a4743fc84d7b",
+  "_shrinkwrap": null,
+  "_spec": "node-resque@^4.0.5",
+  "_where": "/Users/mahindraduddempudi/work/projects/blaze",
+  "author": {
+    "name": "Evan Tahler",
+    "email": "evantahler@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/taskrabbit/node-resque/issues"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "ioredis": "^3.0.0"
+  },
+  "description": "an opinionated implementation of resque in node",
+  "devDependencies": {
+    "fakeredis": "latest",
+    "mocha": "latest",
+    "node-schedule": "latest",
+    "should": "latest",
+    "standard": "latest"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-TPVRigVmtlM9aCBj63VUuSlciC0DVnMJml6Qktvqb6/GzLChpvwv0/zourAHS6G0lvcY93puqOINCO7rLUy1pg==",
+    "shasum": "bbfe53ebc83c027ea221fc73f5a2a4743fc84d7b",
+    "tarball": "https://registry.npmjs.org/node-resque/-/node-resque-4.0.9.tgz"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "gitHead": "5b2f5d425668f8907a6a9d9e4a4f17d9869d1778",
+  "homepage": "http://github.com/taskrabbit/node-resque",
+  "keywords": [
+    "delayed",
+    "queue",
+    "resque",
+    "redis",
+    "work",
+    "worker",
+    "background",
+    "job"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "evantahler",
+      "email": "evan@evantahler.com"
+    },
+    {
+      "name": "bleonard",
+      "email": "brian@bleonard.com"
+    },
+    {
+      "name": "davidjairala",
+      "email": "davidjairala@gmail.com"
+    }
+  ],
+  "name": "node-resque",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/taskrabbit/node-resque.git"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "mocha"
+  },
+  "standard": {
+    "globals": [
+      "it",
+      "after",
+      "afterEach",
+      "before",
+      "beforeEach",
+      "describe"
+    ]
+  },
+  "version": "4.0.9"
+}
